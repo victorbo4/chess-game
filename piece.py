@@ -9,6 +9,9 @@ class Piece:
         self.color = color
         self.value = value
 
+    def valid_move(self):
+        pass
+
 
 class Pawn(Piece):
 
@@ -18,6 +21,7 @@ class Pawn(Piece):
             self.dir = -1
         else:
             self.dir = 1
+
 
 
 class Rook(Piece):
